@@ -21,7 +21,11 @@ const corsOptions = {
           process.env.FRONTEND_URL || "https://epaphrassam.github.io",
           "https://epaphrassam.github.io",
         ]
-      : ["http://localhost:3000", "http://127.0.0.1:3000"],
+      : [
+          "http://localhost:3000",
+          "http://127.0.0.1:3000",
+          "http://127.0.0.1:5500",
+        ],
   credentials: true,
   optionsSuccessStatus: 200,
 };
