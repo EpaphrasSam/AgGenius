@@ -5,7 +5,7 @@ const config = {
     DEBUG: true,
   },
   production: {
-    API_URL: "https://your-backend-domain.onrender.com", // Update this with your actual backend URL
+    API_URL: "https://aggenius-backend.onrender.com", // Your live backend URL
     DEBUG: false,
   },
 };

@@ -17,7 +17,10 @@ const port = process.env.PORT || 5000;
 const corsOptions = {
   origin:
     process.env.NODE_ENV === "production"
-      ? [process.env.FRONTEND_URL || "https://your-frontend-domain.com"]
+      ? [
+          process.env.FRONTEND_URL || "https://epaphrassam.github.io",
+          "https://epaphrassam.github.io",
+        ]
       : ["http://localhost:3000", "http://127.0.0.1:3000"],
   credentials: true,
   optionsSuccessStatus: 200,
