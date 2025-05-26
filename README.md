@@ -14,10 +14,12 @@ AgGenius (TAG) is a comprehensive agricultural business website that provides in
 ## Tech Stack
 
 ### Frontend
+
 - HTML5, CSS3, JavaScript
 - Responsive design with modern UI/UX
 
 ### Backend
+
 - Node.js with Express.js
 - SQLite database
 - JWT authentication
@@ -51,16 +53,20 @@ AgGenius/
 ## Local Development Setup
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 
 ### Backend Setup
+
 1. Navigate to the backend directory:
+
    ```bash
    cd backend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -72,38 +78,46 @@ AgGenius/
    The backend will run on `http://localhost:5000`
 
 ### Frontend Setup
+
 1. Navigate to the frontend directory:
+
    ```bash
    cd frontend
    ```
 
 2. Serve the static files using a local server:
+
    ```bash
    # Using Python 3
    python -m http.server 3000
-   
+
    # Using Node.js http-server (install globally: npm install -g http-server)
    http-server -p 3000
-   
+
    # Using Live Server extension in VS Code
    ```
+
    The frontend will be available at `http://localhost:3000`
 
 ## API Endpoints
 
 ### Authentication
+
 - `POST /auth/register` - User registration
 - `POST /auth/login` - User login
 
 ### Blog
+
 - `GET /blog/posts` - Get all blog posts
 - `POST /blog/posts` - Create new blog post (authenticated)
 
 ### Comments
+
 - `GET /comments/:postId` - Get comments for a post
 - `POST /comments` - Add new comment (authenticated)
 
 ### Contact
+
 - `POST /contact` - Submit contact form
 
 ## Environment Variables
@@ -156,4 +170,4 @@ This project is licensed under the ISC License.
 
 ## Contact
 
-For questions or support, please use the contact form on the website or reach out through the repository issues. 
+For questions or support, please use the contact form on the website or reach out through the repository issues.

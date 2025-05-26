@@ -61,6 +61,7 @@
       <p>© 2025 AgGenius Consultancy Services. All Rights Reserved.</p>
     </div>
 
+    <script src="config.js"></script>
     <script src="script.js"></script>
     <script>
       async function validateForm(event) {
@@ -84,7 +85,6 @@
           showToast("Registration successful! Please login.", "success");
           window.location.href = "login.html";
         } catch (error) {
-         
         } finally {
           setButtonLoading(submitButton, false);
         }
